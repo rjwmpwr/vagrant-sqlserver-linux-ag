@@ -26,6 +26,7 @@ Note: make sure your git client maintain UNIX style line terminators.  All scrip
 To start,
 1. download the box, do the following:
 vagrant box add --name ol8 https://yum.oracle.com/boxes/oraclelinux/ol80/ol80.box
+
 vagrant box add --name ol7 https://yum.oracle.com/boxes/oraclelinux/latest/ol7-latest.box
 
 2. bring up vagrant boxes.  Important:  node 1 needs to be brought up the last.  That is where the cluseter and the availability group will be built.
