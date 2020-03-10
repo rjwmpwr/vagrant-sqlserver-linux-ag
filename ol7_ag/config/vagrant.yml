@@ -1,0 +1,33 @@
+shared:
+  box: ol7
+  non_rotational: 'on'
+
+dns:
+  vm_name: ol7_dns
+  mem_size: 1024
+  cpus: 1
+  public_ip: 192.168.56.10
+
+node1:
+  vm_name: ol7_sql1
+  mem_size: 4096
+  cpus: 2
+  public_ip: 192.168.56.11
+  private_ip: 192.168.1.11
+  u01_disk: ./ol7_sql1_u01.vdi
+
+node2:
+  vm_name: ol7_sql2
+  mem_size: 4096
+  cpus: 2
+  public_ip: 192.168.56.12
+  private_ip: 192.168.1.12
+  u01_disk: ./ol7_sql2_u01.vdi
+
+node3:
+  vm_name: ol7_sql3
+  mem_size: 4096
+  cpus: 2
+  public_ip: 192.168.56.13
+  private_ip: 192.168.1.13
+  u01_disk: ./ol7_sql3_u01.vdi
