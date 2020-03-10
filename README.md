@@ -33,13 +33,17 @@ vagrant box add --name ol7 https://yum.oracle.com/boxes/oraclelinux/latest/ol7-l
 
 2. bring up vagrant boxes.  Important:  node 1 needs to be brought up the last.  That is where the cluseter and the availability group will be built.
 cd d:\vm\ol7_ag\dns
+
 vagrant up
 
 cd d:\vm\ol7_ag\node3
+
 vagrant up
 
 cd d:\vm\ol7_ag\node2
+
 vagrant up
 
 cd d:\vm\ol7_ag\node1
+
 vagrant up
