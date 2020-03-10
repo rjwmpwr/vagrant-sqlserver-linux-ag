@@ -18,6 +18,7 @@ ol7_ag and ol8_ag, each will contain 4 nodes, one dns node, 3 sqlserver nodes ru
 Clone Repository:
 1. Create a folder on your host to store the repo.
 2. to clone the repo, do the following:
+
 git clone https://github.com/rjwmpwr/vagrant-sqlserver-linux-ag.git
 
 Typically, I will copy the repo files to another folder, such as d:\VM\ol8_ag or d:\VM\ol7_ag
@@ -25,6 +26,7 @@ Note: make sure your git client maintain UNIX style line terminators.  All scrip
 
 To start,
 1. download the box, do the following:
+
 vagrant box add --name ol8 https://yum.oracle.com/boxes/oraclelinux/ol80/ol80.box
 
 vagrant box add --name ol7 https://yum.oracle.com/boxes/oraclelinux/latest/ol7-latest.box
